@@ -1,6 +1,12 @@
 .homeLinks {
-    display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 li {
-    color: red;
+  color: red;
+}
+.characters {
+  display: flex;
 }
