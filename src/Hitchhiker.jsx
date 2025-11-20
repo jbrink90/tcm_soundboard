@@ -4,7 +4,7 @@ const currentEnv = import.meta.env.MODE || 'development';
 let mainFileDir = 'hitch_sounds/';
 
 if (currentEnv === "production") {
-  mainFileDir = 'https://github.com/TheConsciousness/theconsciousness.github.io/raw/main/hitch_sounds/';
+  mainFileDir = './tcm_soundboard/hitch_sounds/';
 }
 console.log(`Soundboard is running in ${currentEnv}.`)
 

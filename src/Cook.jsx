@@ -1,10 +1,10 @@
 import './Cook.css'
 
 const currentEnv = import.meta.env.MODE || 'development';
-let mainFileDir = 'cook_sounds/';
+let mainFileDir = './cook_sounds/';
 
 if (currentEnv === "production") {
-  mainFileDir = 'https://github.com/TheConsciousness/theconsciousness.github.io/raw/main/cook_sounds/';
+  mainFileDir = './tcm_soundboard/cook_sounds/';
 }
 console.log(`Soundboard is running in ${currentEnv}.`)
 
