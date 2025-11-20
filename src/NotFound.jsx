@@ -1,5 +1,3 @@
-import './Cook.css'
-
 function NotFound() {
   
   return (

@@ -1,5 +1,3 @@
-import './Hitchhiker.css?v5'
-
 let mainFileDir = './hitch_sounds/';
 
 const hitchAudioFileList = [

@@ -1,5 +1,3 @@
-import './Leatherface.css'
-
 let mainFileDir = './lf_sounds/';
 
 const leatherAudioFileList = [

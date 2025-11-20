@@ -1,5 +1,3 @@
-import './Cook.css'
-
 let mainFileDir = './cook_sounds/';
 
 const cookAudioFileList = [
