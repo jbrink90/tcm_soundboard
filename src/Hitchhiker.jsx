@@ -1,12 +1,6 @@
 import './Hitchhiker.css?v5'
 
-const currentEnv = import.meta.env.MODE || 'development';
-let mainFileDir = 'hitch_sounds/';
-
-if (currentEnv === "production") {
-  mainFileDir = './tcm_soundboard/hitch_sounds/';
-}
-console.log(`Soundboard is running in ${currentEnv}.`)
+let mainFileDir = './hitch_sounds/';
 
 const hitchAudioFileList = [
   {line: "Aint you shifty", file: "aintYouShifty.mp3"},

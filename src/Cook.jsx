@@ -1,12 +1,6 @@
 import './Cook.css'
 
-const currentEnv = import.meta.env.MODE || 'development';
 let mainFileDir = './cook_sounds/';
-
-if (currentEnv === "production") {
-  mainFileDir = './tcm_soundboard/cook_sounds/';
-}
-console.log(`Soundboard is running in ${currentEnv}.`)
 
 const cookAudioFileList = [
   {line: "Alright alright alright", file: "alrightAlrightAlright.mp3"},

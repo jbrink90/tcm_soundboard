@@ -1,12 +1,6 @@
 import './Leatherface.css'
 
-const currentEnv = import.meta.env.MODE || 'development';
-let mainFileDir = 'lf_sounds/';
-
-if (currentEnv === "production") {
-  mainFileDir = './tcm_soundboard/lf_sounds/';
-}
-console.log(`Soundboard is running in ${currentEnv}.`)
+let mainFileDir = './lf_sounds/';
 
 const leatherAudioFileList = [
   {line: "Angry", file: "angry.mp3"},
