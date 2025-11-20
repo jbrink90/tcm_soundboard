@@ -4,9 +4,9 @@
   "theme_color": "#a80000",
   "background_color": "#a80000",
   "display": "standalone",
-  "orientation": "",
-  "scope": "/",
-  "start_url": "https://theconsciousness.github.io/",
+  "orientation": "any",
+  "scope": "/tcm_soundboard/",
+  "start_url": "/tcm_soundboard/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
